@@ -109,9 +109,9 @@ public class MyGraphics extends JPanel implements ActionListener {
         g2d.setColor(Color.GREEN);
         g2d.drawLine(x1, y1, x2, y2);
 
-        // Hiện đường nối trong 0,5s rồi mất
+        // Hiện đường nối trong 0,6s rồi mất
         try {
-            Thread.sleep(500); // Adjust the sleep time as needed
+            Thread.sleep(600); // Adjust the sleep time as needed
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
