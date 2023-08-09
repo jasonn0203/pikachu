@@ -8,7 +8,7 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class Algorithm {
-
+//test
     private int row;
     private int col;
     private int notBarrier = 0;
